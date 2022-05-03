@@ -57,6 +57,10 @@
     text-decoration: none;
 }
 
+.direct_a:hover {
+    color: #F16D7F;
+}
+
 .direct_in_up {
     margin-left: 21.5px;
 }
@@ -70,6 +74,10 @@
     color: #F16D7F;
     text-decoration: none;
 
+}
+
+.direct:hover {
+    color: #6F6E6E;
 }
 
 .p_menu {
