@@ -35,6 +35,44 @@
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
 
+.forma-b {
+  width: 26px;
+  height: 26.79px;
+  transition: 1s;
+}
+
+.forma-b:hover {
+  transform: scale(1.5);
+}
+
+.forma-c {
+  width: 32px;
+  height: 23px;
+  transition: 0.3s;
+}
+
+.forma-c:hover {
+  transform: rotate(180deg);
+}
+
+.forma-d {
+  width: 29px;
+  height: 29px;
+  transition: 1s;
+}
+
+.forma-d:hover {
+  transform: scale(1.5);
+}
+
+.forma-f {
+  transition: 1s;
+}
+
+.forma-f:hover {
+  transform: translate(10px);
+}
+
 .vector {
   margin-left: 203px;
   margin-top: 16px;
@@ -170,19 +208,39 @@
 .img_1 {
   margin-right: 30px;
   border: 360px 260px;
+  transition: 1s;
+}
+.img_1:hover {
+  transform: scale(1.1);
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.884);
 }
 
 .img_2 {
   margin-right: 30px;
   border: 360px 260px;
+  transition: 1s;
+}
+.img_2:hover {
+  transform: scale(1.1);
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.882);
 }
 
 .img_3 {
   border: 360px 260px;
+  transition: 1s;
+}
+.img_3:hover {
+  transform: scale(1.1);
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.882);
 }
 
 .img_4 {
   margin-left: 230px;
+  transition: 1s;
+}
+.img_4:hover {
+  transform: scale(1.2);
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.882);
 }
 
 .list_prod {
@@ -223,6 +281,7 @@
   text-decoration: none;
   margin-top: 188.5px;
   margin-left: 111.5px;
+  transition: 0.7s;
 }
 .add:hover {
   box-shadow: 0 0 10px #FFFFFF;
@@ -511,6 +570,15 @@
   background: transparent;
   margin-left: 695.5px;
   margin-top: 48.5px;
+  transition: 1s;
+}
+.button1:hover {
+  background-color: #FF6A6A;
+  transform: scale(1.5);
+}
+.button1:hover > .text_b1 {
+  color: #fff;
+  transform: scale(1.5);
 }
 
 .text_b1 {
@@ -520,6 +588,7 @@
   font-size: 16px;
   line-height: 19px;
   color: #F26376;
+  transition: 1s;
 }
 
 .footer {
@@ -704,9 +773,14 @@
   border: none;
   margin-left: 915px;
   padding-left: 22px;
-  margin-top: 220px;
+  margin-top: 243px;
   border-bottom-left-radius: 50px;
   border-top-left-radius: 50px;
+  transition: 1s;
+}
+.f_em:hover {
+  transform: translate(-20px);
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
 
 .button_f {
@@ -716,7 +790,29 @@
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   border: none;
-  margin-top: 220px;
+  margin-top: 243px;
+  transition: 1s;
+}
+.button_f:hover {
+  border: solid 1px #F16D7F;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  background-color: transparent;
+}
+
+.subscribe {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 12px;
+}
+.button_f:hover > .subscribe {
+  color: #F16D7F;
 }
 
 .footer3 {
@@ -747,14 +843,89 @@
   margin-top: 24px;
 }
 
+.fa {
+  background-color: #FFFFFF;
+  width: 31.45px;
+  height: 32px;
+  transition: 0.7s;
+}
+.fa:hover {
+  background-color: #F16D7F;
+  box-shadow: 6px 6px 35px rgba(255, 255, 255, 0.944);
+  transform: translate(-5px);
+}
+.fa:hover > .img_fa {
+  filter: invert(100);
+}
+
 .inst {
+  background-color: #FFFFFF;
+  width: 31.45px;
+  height: 32px;
   margin-left: 7.29px;
+  transition: 0.7s;
+}
+.inst:hover {
+  background-color: #F16D7F;
+  box-shadow: 6px 6px 35px rgba(255, 255, 255, 0.944);
+  transform: scale(1.5);
+}
+.inst:hover > .img_in {
+  filter: invert(100);
 }
 
 .pint {
+  background-color: #FFFFFF;
+  width: 31.45px;
+  height: 32px;
   margin-left: 7.29px;
+  transition: 0.7s;
+}
+.pint:hover {
+  background-color: #F16D7F;
+  box-shadow: 6px 6px 35px rgba(255, 255, 255, 0.944);
+  transform: scale(1.5);
+}
+.pint:hover > .img_pi {
+  filter: invert(100);
 }
 
 .twit {
+  background-color: #FFFFFF;
+  width: 31.45px;
+  height: 32px;
   margin-left: 7.29px;
+  transition: 0.7s;
+}
+.twit:hover {
+  background-color: #F16D7F;
+  box-shadow: 6px 6px 35px rgba(255, 255, 255, 0.944);
+  transform: translate(5px);
+}
+.twit:hover > .img_tw {
+  filter: invert(100);
+}
+
+.img_fa {
+  padding-left: 11px;
+  padding-top: 8px;
+  transition: 0.7s;
+}
+
+.img_in {
+  padding-left: 7.95px;
+  padding-top: 9px;
+  transition: 0.7s;
+}
+
+.img_pi {
+  padding-left: 10px;
+  padding-top: 8.2px;
+  transition: 0.7s;
+}
+
+.img_tw {
+  padding-left: 8px;
+  padding-top: 9.5px;
+  transition: 0.7s;
 }/*# sourceMappingURL=style.css.map */
